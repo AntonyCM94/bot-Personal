@@ -21,4 +21,31 @@ Este proyecto es un bot personal de WhatsApp desarrollado con [Baileys](https://
   echo "{}" > db/ahorros.json
 
   # 4.  Iniciar el bot
-  node handlersW.js
+  node handlersW.js`
+```
+Cuando lo inicies por primera vez, te aparecerá un código QR en consola. Escanéalo desde WhatsApp Web con tu móvil y listo.
+## Estructura
+```
+bot-personal-whatsapp/
+├── core/
+│   └── comandos.js       # Lógica de los comandos personalizados
+├── db/
+│   └── ahorros.json      # Base de datos local en formato JSON
+├── whatsappBot/
+│   └── handlersW.js      # Entrada principal del bot
+├── config.js             # Configuración del bot
+├── package.json
+└── README.md
+```
+Notas de seguridad
+  No compartas tu archivo de sesión de WhatsApp en público.
+  Considera agregar autenticación si despliegas el bot online.
+  Puedes usar .env para ocultar claves o ajustes sensibles.
+
+Futuras mejoras
+  Soporte para comandos dinámicos desde JSON o base de datos
+  Dashboard web para ver el estado del bot
+  Persistencia de sesión en la nube
+
+Autor 
+  Desarrollador por AntonyCM94
