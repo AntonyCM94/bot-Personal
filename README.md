@@ -38,14 +38,14 @@ bot-personal-whatsapp/
 └── README.md
 ```
 Notas de seguridad
-  No compartas tu archivo de sesión de WhatsApp en público.
-  Considera agregar autenticación si despliegas el bot online.
-  Puedes usar .env para ocultar claves o ajustes sensibles.
+  - No compartas tu archivo de sesión de WhatsApp en público.
+  - Considera agregar autenticación si despliegas el bot online.
+  - Puedes usar .env para ocultar claves o ajustes sensibles.
 
 Futuras mejoras
-  Soporte para comandos dinámicos desde JSON o base de datos
-  Dashboard web para ver el estado del bot
-  Persistencia de sesión en la nube
+  - Soporte para comandos dinámicos desde JSON o base de datos
+  - Dashboard web para ver el estado del bot
+  - Persistencia de sesión en la nube
 
 Autor 
   Desarrollador por AntonyCM94
