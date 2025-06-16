@@ -1,8 +1,0 @@
---------------------
-Telegram bot
-TOKEN = "8092238337:AAE9hmdeP40GzWXAeKv3XYa8SehjhQfKmSs"
-CHAT_ID = "7647357239"  # Replace with your chat ID
-------------------------------------
-TOKEN = "8092238337:AAE9hmdeP40GzWXAeKv3XYa8SehjhQfKmSs"
-ADMIN_CHAT_ID = "7647357239"
----------------------
