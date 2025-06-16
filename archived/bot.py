@@ -1,7 +1,7 @@
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 import logging
 
-import main
+import archived.main as main
 
 TOKEN = "8092238337:AAE9hmdeP40GzWXAeKv3XYa8SehjhQfKmSs"
 ADMIN_CHAT_ID = "7647357239"
